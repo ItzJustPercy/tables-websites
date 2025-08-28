@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tables Website</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+      background: #f9f9f9;
+    }
+    h2 {
+      color: #333;
+    }
+    table {
+      border-collapse: collapse;
+      width: 50%;
+      margin-bottom: 40px;
+      background: white;
+    }
+    table, th, td {
+      border: 1px solid #444;
+      padding: 8px;
+      text-align: center;
+    }
+    th {
+      background: #ddd;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Table 1</h2>
+  <table>
+    <tr>
+      <th>Index #</th>
+      <th>Value</th>
+    </tr>
+    <tr><td>A1</td><td>41</td></tr>
+    <tr><td>A2</td><td>18</td></tr>
+    <tr><td>A3</td><td>21</td></tr>
+    <tr><td>A4</td><td>63</td></tr>
+    <tr><td>A5</td><td>2</td></tr>
+    <tr><td>A6</td><td>...</td></tr>
+    <tr><td>A7</td><td>...</td></tr>
+    <tr><td>A12</td><td>...</td></tr>
+    <tr><td>A13</td><td>...</td></tr>
+    <tr><td>A15</td><td>...</td></tr>
+    <tr><td>A20</td><td>...</td></tr>
+    <!-- Continue filling the rows from your CSV -->
+  </table>
+
+  <h2>Table 2</h2>
+  <table>
+    <tr>
+      <th>Category</th>
+      <th>Value</th>
+    </tr>
+    <tr><td>Alpha</td><td>30</td></tr>
+    <tr><td>Beta</td><td>16</td></tr>
+    <tr><td>Charlie</td><td>270</td></tr>
+  </table>
+
+</body>
+</html>
